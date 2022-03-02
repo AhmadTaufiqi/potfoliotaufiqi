@@ -144,17 +144,23 @@ img{
 		display: inline-block;
 		background-color: var(--first-color);
 		color: white;
-		padding: .75rem 2.5rem;
+		width: 100px;
+		padding: .75rem .5rem;
 		font-weight: var(--font-semi);
 		border-radius: .5rem;
 		box-shadow: 0 2px 5px rgba(0, 0, 0, .25);
 		transition: .5s ease-out;
+		margin :8px;
 	}
 	.button:hover{
 	transform: translateX(1px);
 	box-shadow: -2px 1px 12px rgba(0, 0, 0, .3);
 }
-
+.row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 /* about */
 .about-container{
 		/* row-gap: 1rem; */
@@ -289,7 +295,7 @@ img{
 		outline: none;
 		font-size: var(--normal-font-size);
 		cursor: pointer;
-		margin-left: auto;
+		/* margin-left: auto; */
 }
 
 /* footer  */
