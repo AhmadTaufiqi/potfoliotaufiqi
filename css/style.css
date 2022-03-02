@@ -216,17 +216,32 @@ img{
 		border-radius: .5rem;
 		z-index: var(--z-back);
 }
-.skills-html{
-		width: 95%;
+.skills-10{
+	width: 10%;
 }
-.skills-css{
-		width: 65%;
+.skills-20{
+	width: 20%;
 }
-.skills-js{
-		width: 45%;
+.skills-30{
+	width: 30%;
 }
-.skills-ui{
-		width: 55%;
+.skills-40{
+	width:40%;
+}
+.skills-50{
+	width:50%;
+}
+.skills-60{
+	width:60%;
+}
+.skills-70{
+	width:70%;
+}
+.skills-80{
+	width:80%;
+}
+.skills-90{
+	width:90%;
 }
 .skills-img{
 		border-radius: .5rem;
